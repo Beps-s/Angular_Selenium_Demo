@@ -1,0 +1,14 @@
+<div>
+  <form (ngSubmit)="onSubmit()">
+    <label>
+      Nimi:
+      <input
+        placeholder="Sisestage oma nimi"
+        type="text"
+        [(ngModel)]="name"
+        name="name"
+      />
+    </label>
+    <button type="submit">Saada</button>
+  </form>
+</div>
